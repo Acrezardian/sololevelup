@@ -1,40 +1,52 @@
-Kebijakan Privasi - Solo Level Up App
+# Privacy Policy - Solo Level Up App
 
-Terakhir Diperbarui: 29 Maret 2026
+**Last Updated:** [Tanggal Hari Ini, misal: 29 Maret 2026]
 
-Kebijakan Privasi ini menjelaskan bagaimana mengumpulkan, menggunakan, dan melindungi informasi pengguna dalam aplikasi Solo Level Up.
+Kebijakan Privasi ini menjelaskan bagaimana **[Nama Developer/Username GitHub Kamu]** ("kami") mengelola informasi Anda dalam aplikasi **Solo Level Up** (`com.sololevelup.app`).
 
-1. Informasi yang Kami Kumpulkan
-Aplikasi ini dirancang untuk memberikan pengalaman gamifikasi kebugaran. Untuk menjalankan fungsinya, kami mengakses data berikut:
-    Data Lokasi (GPS): Kami memerlukan akses ke lokasi perangkat Anda (saat aplikasi digunakan dan di latar belakang melalui Foreground Service) untuk menghitung jarak lari, kecepatan, dan memetakan rute lari Anda pada fitur "System Radar".
-    Data Aktivitas Fisik: Kami menyimpan jumlah repetisi latihan (push-up, sit-up, squat) dan data statistik lari yang Anda masukkan secara manual atau melalui sensor perangkat.
-    Informasi Profil: Nama pemain (Player Name) yang Anda masukkan saat inisialisasi aplikasi.
-    Data Penyimpanan Lokal: Data permainan, inventaris, dan kemajuan karakter disimpan secara lokal di perangkat Anda menggunakan database internal.
+## 1. Informasi yang Kami Kumpulkan
 
-2. Penggunaan Informasi
-Informasi yang dikumpulkan digunakan semata-mata untuk:
-    Melacak kemajuan latihan kebugaran Anda dalam ekosistem permainan.
-    Menghitung hadiah (XP, Gold, Mana Crystals) berdasarkan aktivitas fisik.
-    Menampilkan riwayat aktivitas lari Anda.
-Kami tidak menjual, menyewakan, atau membagikan data pribadi Anda kepada pihak ketiga untuk tujuan pemasaran.
+Aplikasi ini adalah alat pelacak kebugaran dengan elemen gamifikasi. Untuk memberikan pengalaman fungsional, kami mengakses data berikut:
 
-3. Izin Perangkat (Permissions)
-Aplikasi akan meminta izin berikut:
-    ACCESS_FINE_LOCATION & ACCESS_COARSE_LOCATION: Untuk pelacakan GPS yang akurat saat fitur lari aktif.
-    POST_NOTIFICATIONS: Untuk mengirim pengingat Daily Quest dan pemberitahuan munculnya Boss Battle.
-    FOREGROUND_SERVICE: Untuk memastikan pelacakan lari tetap berjalan meskipun layar mati atau Anda membuka aplikasi lain.
+* **Data Lokasi (GPS):** Kami menggunakan lokasi perangkat Anda (Fine & Coarse Location) untuk menghitung jarak lari, kecepatan, dan rute lari secara real-time pada fitur *System Radar*.
+* **Data Aktivitas Fisik:** Kami mencatat jumlah repetisi latihan (Push-up, Sit-up, Squat) dan riwayat lari yang Anda lakukan melalui aplikasi.
+* **Identitas Profil:** Nama pemain yang Anda masukkan hanya digunakan untuk tampilan antarmuka (UI) di dalam aplikasi.
+* **Data Penyimpanan Lokal:** Semua progres permainan, inventaris, dan statistik karakter disimpan secara lokal di perangkat Anda menggunakan database internal (*AppDatabase*).
 
-4. Layanan Pihak Ketiga
-Aplikasi ini diunggah ke Google Play Store dan menggunakan layanan pihak ketiga yang mungkin mengumpulkan informasi yang digunakan untuk mengidentifikasi Anda:
-    https://www.google.com/policies/privacy/
+## 2. Penggunaan Izin Perangkat (Permissions)
 
-5. Keamanan Data
-Keamanan data Anda adalah prioritas kami. Karena aplikasi ini menyimpan sebagian besar data secara lokal di perangkat Anda:
-    Data Anda tetap berada di perangkat kecuali Anda menghapus data aplikasi atau melakukan reset pabrik.
-    Kami menyarankan Anda untuk menjaga keamanan perangkat Anda agar data permainan tidak diakses oleh orang lain.
+Berdasarkan kode aplikasi kami, kami meminta izin akses berikut:
 
-6. Privasi Anak-Anak
-Aplikasi ini tidak secara khusus ditujukan untuk anak-anak di bawah usia 13 tahun. Kami tidak secara sadar mengumpulkan informasi identitas pribadi dari anak-anak. Jika kami menyadari bahwa data anak-anak telah dikumpulkan, kami akan segera menghapusnya dari server lokal/perangkat.
+* **ACCESS_FINE_LOCATION & ACCESS_COARSE_LOCATION:** Digunakan untuk pelacakan rute lari yang akurat.
+* **FOREGROUND_SERVICE:** Diperlukan agar aplikasi tetap dapat melacak lari Anda meskipun Anda membuka aplikasi lain atau mematikan layar.
+* **POST_NOTIFICATIONS:** Digunakan untuk mengirimkan peringatan *Emergency Quest* (Boss Battle) dan pengingat misi harian.
+* **VIBRATE:** Digunakan sebagai umpan balik haptic saat Anda menerima *damage* atau menyelesaikan misi.
 
-7. Perubahan Kebijakan Privasi
-Kami dapat memperbarui Kebijakan Privasi kami dari waktu ke waktu. Anda disarankan untuk meninjau halaman ini secara berkala untuk melihat perubahan apa pun.
+## 3. Penyimpanan dan Keamanan Data
+
+* **Penyimpanan Lokal:** Kami tidak memiliki server eksternal. Semua data permainan Anda bersifat pribadi dan hanya tersimpan di memori perangkat Anda. 
+* **Keamanan:** Karena data tidak dikirim ke internet, risiko kebocoran data pihak ketiga sangat minim. Namun, data akan hilang jika Anda menghapus cache aplikasi tanpa melakukan cadangan manual (jika tersedia).
+* **Data Sharing:** Kami **tidak menjual atau membagikan** data aktivitas fisik atau lokasi Anda kepada pihak ketiga mana pun.
+
+## 4. Layanan Pihak Ketiga
+
+Aplikasi ini menggunakan layanan dari Google yang mungkin mengumpulkan data sesuai kebijakan mereka:
+* [Google Play Services](https://www.google.com/policies/privacy/)
+
+## 5. Privasi Anak-Anak
+
+Aplikasi ini tidak dirancang untuk mengumpulkan informasi dari anak-anak di bawah usia 13 tahun secara sengaja. Karena semua data disimpan secara lokal, orang tua memiliki kontrol penuh atas penggunaan aplikasi di perangkat anak.
+
+## 6. Perubahan Kebijakan Privasi
+
+Kami dapat memperbarui Kebijakan Privasi ini sewaktu-waktu. Perubahan akan berlaku segera setelah kebijakan versi terbaru diunggah di halaman ini.
+
+## 7. Kontak Kami
+
+Jika Anda memiliki pertanyaan mengenai privasi atau penggunaan data dalam aplikasi ini, silakan hubungi kami melalui:
+
+* **Email:** [Alamat Email Kamu]
+* **GitHub Issues:** [Link Repositori GitHub Kamu]/issues
+
+---
+*Dibuat untuk kepatuhan Google Play Store Developer Policy.*
